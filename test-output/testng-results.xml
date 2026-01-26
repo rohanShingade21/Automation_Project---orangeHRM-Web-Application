@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[onStart]]>
+    </line>
+    <line>
+      <![CDATA[TC_017is onTestStart]]>
+    </line>
+    <line>
+      <![CDATA[Moved back]]>
+    </line>
+    <line>
+      <![CDATA[TC_017is onTestSuccess]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-01-27T03:18:16 IST" name="Default suite" finished-at="2026-01-27T03:18:33 IST" duration-ms="17066">
+    <groups>
+    </groups>
+    <test started-at="2026-01-27T03:18:16 IST" name="Default test" finished-at="2026-01-27T03:18:33 IST" duration-ms="17066">
+      <class name="LoginModule.Login">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:LoginModule.Login@4135c3b]" started-at="2026-01-27T03:18:16 IST" name="precondition" finished-at="2026-01-27T03:18:29 IST" duration-ms="13009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="TC_017()[pri:17, instance:LoginModule.Login@4135c3b]" started-at="2026-01-27T03:18:29 IST" name="TC_017" finished-at="2026-01-27T03:18:33 IST" duration-ms="3811" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC_017is onTestStart]]>
+            </line>
+            <line>
+              <![CDATA[Moved back]]>
+            </line>
+            <line>
+              <![CDATA[TC_017is onTestSuccess]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_017 -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:LoginModule.Login@4135c3b]" started-at="2026-01-27T03:18:33 IST" name="postcondition" finished-at="2026-01-27T03:18:33 IST" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+      </class> <!-- LoginModule.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
