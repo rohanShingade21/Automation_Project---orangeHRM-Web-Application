@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class HomePagePom {
-@FindBy(xpath = "//span[text()='Admin']")
+@FindBy(xpath = "//a[@class='oxd-main-menu-item active']")
 private WebElement admin;
 @FindBy(className = "oxd-userdropdown-tab")
 private WebElement profile_icon;

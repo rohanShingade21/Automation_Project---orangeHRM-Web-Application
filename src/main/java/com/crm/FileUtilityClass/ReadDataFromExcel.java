@@ -10,7 +10,7 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 
 public class ReadDataFromExcel {
 public static String single(String sheet,int row,int colom) throws EncryptedDocumentException, IOException {
-	FileInputStream fis=new FileInputStream(".\\src\\test\\resources\\ornageExcel.xlsx");
+	FileInputStream fis=new FileInputStream(".\\src\\test\\resources\\Create_admin.xlsx");
 	Workbook wb = WorkbookFactory.create(fis);
 	Sheet sh = wb.getSheet(sheet);
 	return sh.getRow(row).getCell(colom).toString();

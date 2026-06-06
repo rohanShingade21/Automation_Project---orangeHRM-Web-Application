@@ -47,7 +47,7 @@ public void precondition() throws IOException {
 	driver.get(url);
 }
 @BeforeMethod 
-public void login(Method method) throws IOException {
+public void login() throws IOException {
 	
 	
 	String username=ReadDataFromProperty.readProperty("username");
@@ -56,6 +56,7 @@ public void login(Method method) throws IOException {
 	log.username().sendKeys(username);
 	log.password().sendKeys(password);
 	log.loginButton().click();
+	 
 }
 @AfterMethod
 public void logout() {

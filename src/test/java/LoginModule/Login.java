@@ -43,7 +43,7 @@ public class Login extends LoginBase {
 		   String homeUrl = ReadDataFromProperty.readProperty("homepageUrl");
 		   assertEquals(driver.getCurrentUrl(),homeUrl,"Not Entred into Home Page");
 		   Reporter.log("Enter Into HOmePage",true);
-	   }
+     }
 	   @Test  (priority = 4)
 	   public void TC_004() throws EncryptedDocumentException, IOException {
 		   String username = ReadDataFromExcel.single("logincre",1 ,0 );

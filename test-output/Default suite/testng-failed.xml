@@ -3,29 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="LoginModule.Login">
+      <class name="AdminModule.Admin">
         <methods>
-          <include name="TC_011"/>
-          <include name="precondition"/>
-          <include name="postcondition"/>
           <include name="TC_009"/>
-          <include name="TC_017"/>
-          <include name="TC_006"/>
-          <include name="TC_016"/>
-          <include name="TC_005"/>
-          <include name="TC_008"/>
-          <include name="TC_007"/>
-          <include name="TC_013"/>
-          <include name="TC_002"/>
-          <include name="TC_012"/>
-          <include name="TC_001"/>
-          <include name="TC_015"/>
-          <include name="TC_004"/>
-          <include name="TC_10"/>
-          <include name="TC_014"/>
-          <include name="TC_003"/>
+          <include name="login"/>
+          <include name="postCondition"/>
+          <include name="logout"/>
+          <include name="adminObject"/>
+          <include name="precondition"/>
         </methods>
-      </class> <!-- LoginModule.Login -->
+      </class> <!-- AdminModule.Admin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

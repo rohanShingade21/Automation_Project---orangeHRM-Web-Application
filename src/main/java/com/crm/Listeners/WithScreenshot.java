@@ -13,9 +13,11 @@ import org.testng.ITestResult;
 import org.testng.Reporter;
 
 import com.crm.BaseClasses.LoginBase;
+import com.crm.BaseClasses.MainBase;
+
 import JavaUtility.*;
 
-public class WithScreenshot extends LoginBase implements ITestListener {
+public class WithScreenshot extends MainBase implements ITestListener {
 	@Override
 	public void onTestStart(ITestResult result) {
 		String name = result.getMethod().getMethodName();
